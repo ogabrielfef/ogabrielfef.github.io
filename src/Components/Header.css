@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  display: flex;
+  background-color: #262a34;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+.titulo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.letter{
+  filter: blur(3px);
+  font-size: 90px;
+  color: white;
+}
+
+.letter:hover{
+  filter: blur(0px);
+  font-size: 90px;
+
+}
+
+a{
+  text-decoration: none;
+  color: #d7afff;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
